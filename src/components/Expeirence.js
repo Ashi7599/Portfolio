@@ -112,7 +112,6 @@ const JobDetails = styled.div`
 //   }
 // `;
 
-
 const JobTitle = styled.h3`
   font-size: 24px;
   color: #ccd6f6;
