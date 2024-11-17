@@ -1,24 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import GlobalStyles from './styles/GlobalStyles';
+import Header from './components/Header';
+import Hero from './components/Hero';
+import About from './components/About';
+import Footer from './components/Footer';
+import Experience from './components/Expeirence';
+import Contact from './components/Contact';
+import styled from 'styled-components';
 
 function App() {
+
+  const AppContainer = styled.div`
+  background-color: #0a192f;
+  color: #ccd6f6;
+  font-family: 'Arial', sans-serif;
+`;
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <AppContainer>
+      <GlobalStyles />
+      <Header />
+      <Hero />
+      <About /> 
+      <Experience />
+      <Contact />
+      <Footer />
+    </AppContainer>
   );
 }
 
