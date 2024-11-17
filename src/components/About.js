@@ -50,28 +50,28 @@ const AboutText = styled.p`
   margin-bottom: 20px;
 `;
 
-const TechList = styled.ul`
-  display: grid;
-  grid-template-columns: repeat(2, minmax(140px, 200px));
-  list-style: none;
-  padding: 0;
-  margin: 20px 0;
-  color: #8892b0;
+// const TechList = styled.ul`
+//   display: grid;
+//   grid-template-columns: repeat(2, minmax(140px, 200px));
+//   list-style: none;
+//   padding: 0;
+//   margin: 20px 0;
+//   color: #8892b0;
 
-  li {
-    font-size: 16px;
-    margin-bottom: 10px;
-    position: relative;
-    padding-left: 20px;
+//   li {
+//     font-size: 16px;
+//     margin-bottom: 10px;
+//     position: relative;
+//     padding-left: 20px;
 
-    &:before {
-      content: "▹";
-      position: absolute;
-      left: 0;
-      color: #64ffda;
-    }
-  }
-`;
+//     &:before {
+//       content: "▹";
+//       position: absolute;
+//       left: 0;
+//       color: #64ffda;
+//     }
+//   }
+// `;
 
 // const ImageWrapper = styled.div`
 //   flex: 1;

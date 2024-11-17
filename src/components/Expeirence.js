@@ -81,12 +81,12 @@ const Tab = styled.button`
   }
 `;
 
-const Subheading = styled.h4`
-  color: #64ffda;
-  font-size: 20px;
-  font-weight: 500;
-  margin-bottom: 10px;
-`;
+// const Subheading = styled.h4`
+//   color: #64ffda;
+//   font-size: 20px;
+//   font-weight: 500;
+//   margin-bottom: 10px;
+// `;
 
 const JobDetails = styled.div`
   flex-grow: 1;

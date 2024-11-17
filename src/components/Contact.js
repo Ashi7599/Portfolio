@@ -14,12 +14,12 @@ const ContactSection = styled.section`
   margin-bottom: 7%;
 `;
 
-const Subheading = styled.h4`
-  color: #64ffda;
-  font-size: 20px;
-  font-weight: 500;
-  margin-bottom: 10px;
-`;
+// const Subheading = styled.h4`
+//   color: #64ffda;
+//   font-size: 20px;
+//   font-weight: 500;
+//   margin-bottom: 10px;
+// `;
 
 const Heading = styled.h2`
   font-size: 48px;

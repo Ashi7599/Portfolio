@@ -201,7 +201,7 @@ const Header = () => {
     return () => {
       window.removeEventListener("scroll", controlHeaderVisibility);
     };
-  }, [lastScrollY]);
+  }, [controlHeaderVisibility]);
 
   return (
     <HeaderContainer isVisible={isVisible}>
